@@ -1,12 +1,4 @@
-source :rubygems
+source 'https://rubygems.org'
 gem 'rake'
-gem 'jeweler'
-gem 'rdoc'
-gem 'rcov'
-gem 'relish'
-
-gem 'rspec'
+gem 'rspec', '~>2.14.1'
 gem 'cucumber'
-gem 'guard-rspec'
-gem 'guard-cucumber'
-gem 'growl_notify'
